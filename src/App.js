@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import Quiz from './Components/Quiz.js'
 import './App.css';
 
 class App extends Component {
@@ -13,9 +14,12 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <Quiz/>
       </div>
     );
   }
 }
 
 export default App;
+
+//all the css will be done on App.css we just need to reference the class names
